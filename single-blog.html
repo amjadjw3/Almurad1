@@ -48,15 +48,28 @@
                       <div class="col-xl-8 col-md-8">
                           <div class="header_right d-flex align-items-center">
                               <div class="short_contact_list">
-                                  <ul>
-                                      <li><a href="#"> <i class="fa fa-envelope"></i> info@docmed.com</a></li>
-                                      <li><a href="#"> <i class="fa fa-phone"></i> 1601-609 6780</a></li>
-                                  </ul>
+                                   <ul>
+    <!-- البريد الإلكتروني -->
+    <li>
+        <a href="mailto:info@almuorad.com">
+            <i class="fa fa-envelope"></i> info@almuorad.com
+        </a>
+    </li>
+
+    <!-- الهاتف -->
+    <li>
+        <a href="tel:+962792700040">
+            <i class="fa fa-phone"></i> +962 7 92700040
+        </a>
+    </li>
+</ul>
                               </div>
 
-                              <div class="book_btn d-none d-lg-block">
-                                  <a class="boxed-btn3-line" href="#">Get Free Quote</a>
-                              </div>
+                             <div class="book_btn d-none d-lg-block">
+    <a class="boxed-btn3-line whatsapp-btn" href="https://wa.me/962792700040" target="_blank">
+        تواصل معنا عبر الواتس اب
+    </a>
+</div>
                           </div>
                       </div>
                   </div>
@@ -661,7 +674,36 @@
    <script src="js/main.js"></script>
 
    
+<!-- أيقونة واتساب ثابتة -->
+<a href="https://wa.me/962792700040" target="_blank" class="whatsapp-float">
+    <i class="fa fa-whatsapp"></i>
+</a>
 
+<!-- CSS -->
+<style>
+.whatsapp-float {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366; /* أخضر واتساب */
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px #999;
+    z-index: 100;
+}
+
+.whatsapp-float i {
+    margin-top: 10px;
+}
+
+.whatsapp-float:hover {
+    background-color: #128C7E; /* أخضر أغمق عند المرور */
+}
+</style>
 </body>
 
 </html>
