@@ -12,6 +12,18 @@
   -ms-flex-pack: start;
   justify-content: start;
 }
+#navigation li a {
+  font-family: "Cairo", "Tahoma", sans-serif; /* خط عربي واضح */
+  font-size: 18px; /* تكبير حجم الخط */
+  font-weight: bold; /* جعله أغمق */
+  color: #222; /* لون داكن */
+}
+
+#navigation li a:hover {
+  color: #d32f2f; /* لون مختلف عند المرور */
+  text-decoration: underline; /* خط تحت الرابط عند التفاعل */
+}
+
 
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
